@@ -130,6 +130,71 @@ Please refer to the licenses of the underlying models and datasets (CROMA, Senti
 
 ---
 
+## 🚀 How to Run the Project
+
+**1️. Clone the repository**
+```
+https://github.com/djbrl-laouedj/XVision.git
+```
+```
+cd XVision
+```
+
+**2️. Create and activate a virtual environment (recommended)**
+```
+python -m venv venv
+```
+```
+source venv/bin/activate        # Linux / macOS
+```
+```
+venv\Scripts\activate           # Windows
+```
+
+**3️. Install dependencies**
+```
+pip install --upgrade pip
+```
+```
+pip install -r requirements.txt
+```
+
+⚠️ A CUDA-compatible GPU is strongly recommended for training (LoRA fine-tuning).
+
+### Pipeline Execution (Step by Step)
+
+**Step 1 — Generate Sentinel-2 embeddings (sentinel_embeddings_1024.npy) - Vision Encoder**
+
+Run : 
+```
+XVision-ViT.ipynb
+```
+**Step 2 — Generate agronomic captions (sentinel_indices.jsonl) - optional but recommended**
+
+Run : 
+```
+XVision-Captions-Generator.ipynb
+```
+**Step 3 — Multimodal LoRA fine-tuning**
+
+Run : 
+```
+XVision-LoRA.ipynb
+```
+Outputs : 
+
+- vision_adapter.pt
+
+- qwen2_lora_multimodal/
+
+**Step 4 — Multimodal inference on new images**
+
+Run : 
+```
+XVision-inference.ipynb
+```
+---
+
 ## 👤 Authors
 
 This project was developed by **Djebril Laouedj** and **Redha Ibbou**,  
