@@ -1,0 +1,17 @@
+pillow 
+numpy
+rasterio
+torch
+transformers
+tqdm
+ipywidgets
+timm
+tensorflow
+keras-tuner
+ipython
+accelerate 
+peft 
+bitsandbytes 
+sentencepiece
+torchgeo
+huggingface_hub
