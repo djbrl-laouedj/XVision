@@ -56,12 +56,19 @@ XVision is composed of three main components:
 
 XVision/
 ├── XVision-ViT.ipynb # Sentinel-2 embedding generation (CROMA)
+
 ├── XVision-Captions-Generator.ipynb # Agronomic caption generation
+
 ├── XVision-LoRA.ipynb # Multimodal LoRA fine-tuning
+
 ├── XVision-inference.ipynb # Multimodal inference on new images
+
 ├── requirements.txt # Python dependencies
+
 ├── README.md # ENG Documentation
+
 ├── README_FR.md # FR Documentation
+
 └── .gitignore
 
 ---
