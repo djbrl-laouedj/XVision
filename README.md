@@ -53,7 +53,7 @@ XVision is composed of three main components:
 ---
 
 ## Repository Structure
-
+'''
 XVision/
 
 ├── XVision-ViT.ipynb # Sentinel-2 embedding generation (CROMA)
@@ -71,7 +71,7 @@ XVision/
 ├── README_FR.md # FR Documentation
 
 └── .gitignore
-
+'''
 ---
 
 ## Data & Captions
