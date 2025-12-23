@@ -1,0 +1,96 @@
+# =====================================
+# Python
+# =====================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.env
+.venv
+venv/
+ENV/
+
+# =====================================
+# Jupyter / Colab
+# =====================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.colab/
+
+# =====================================
+# OS files
+# =====================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =====================================
+# Logs
+# =====================================
+*.log
+logs/
+wandb/
+mlruns/
+
+# =====================================
+# Data files (DO NOT COMMIT LARGE DATA)
+# =====================================
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+
+# =====================================
+# Models & Checkpoints
+# =====================================
+vision_adapter.pt
+qwen2_lora_multimodal/
+models/
+checkpoints/
+outputs/
+
+# =====================================
+# HuggingFace cache
+# =====================================
+.cache/
+huggingface/
+hf_cache/
+
+# =====================================
+# Datasets
+# =====================================
+data/
+datasets/
+*.tif
+*.tiff
+*.geotiff
+GEE_EXPORT/
+
+# =====================================
+# JSONL generated files
+# (keep templates / small examples only)
+# =====================================
+sentinel_embeddings_*.npy
+sentinel_indices_*.jsonl
+
+# =====================================
+# Experiments / temporary files
+# =====================================
+tmp/
+temp/
+debug/
+experiments/
+
+# =====================================
+# VSCode / IDE
+# =====================================
+.vscode/
+.idea/
+*.code-workspace
