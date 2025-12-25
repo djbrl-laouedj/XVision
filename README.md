@@ -121,12 +121,13 @@ Please refer to the licenses of the underlying models and datasets (CROMA, Senti
 
 ---
 
-## Acknowledgements
+## Technical Stack
 
 - Sentinel-2 / Copernicus Programme (ESA)
-- TorchGeo & CROMA authors
+- TorchGeo & CROMA
 - Hugging Face ecosystem
-- Qwen model authors
+- Qwen model
+- LoRA & MLP
 
 ---
 
