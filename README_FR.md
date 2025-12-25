@@ -197,6 +197,10 @@ Lancer :
 XVision-inference.ipynb
 ```
 
-👤 Auteurs
+---
+
+##👤 Auteurs
+
 Ce projet a été développé par Djebril Laouedj et Redha Ibbou,
+
 étudiants en dernière année en Big Data & Intelligence Artificielle à l'ECE Paris.
