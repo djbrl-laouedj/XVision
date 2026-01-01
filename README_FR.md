@@ -201,5 +201,5 @@ XVision-inference.ipynb
 
 ## 👤 Auteurs
 
-Ce projet a été développé par **Djebril Laouedj** et **Redha Ibbou**,
+Ce projet a été développé par **Djebril Laouedj** et **Redha Ibbou** [@KYX6](https://github.com/KYX6),
 étudiants en dernière année en **Big Data & Intelligence Artificielle** à l'**ECE Paris**.
