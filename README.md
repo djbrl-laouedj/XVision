@@ -1,5 +1,7 @@
 # XVision
 
+<img width="256" height="256" alt="image" src="https://github.com/user-attachments/assets/14d76cd3-4610-4455-9e33-6dc6ff22bfa1" />
+
 **XVision** is a multimodal vision–language research project focused on **agricultural remote sensing**.  
 It combines **Sentinel-2 multispectral satellite imagery** with **large language models (LLMs)** to automatically generate **interpretable agronomic analyses** from satellite data.
 
